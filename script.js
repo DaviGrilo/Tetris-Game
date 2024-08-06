@@ -8,7 +8,6 @@ let restartBtn = document.getElementById('restartBtn');
 let game;
 let isPaused = false;
 
-// Carregar os sons
 const lineClearSound = new Audio('./som/tetris-line-clear-sound.mp3');
 const gameOverSound = new Audio('./som/game-over-sound.mp3');
 
