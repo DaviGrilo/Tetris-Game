@@ -1,6 +1,6 @@
 # Tetris Game
 
-Um clássico jogo de Tetris desenvolvido com HTML, CSS e JavaScript. Este projeto é uma implementação completa do jogo Tetris com suporte a pontuação, controle de peças e uma tela de "Game Over".
+Um clássico jogo de Tetris desenvolvido com HTML, CSS e JavaScript.
 
 ## Como Jogar
 
