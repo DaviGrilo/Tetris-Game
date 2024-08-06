@@ -113,7 +113,7 @@ class Game {
     if (linesCleared > 0) {
       this.score += 10 * linesCleared;
       scoreElement.textContent = 'Score: ' + this.score;
-      lineClearSound.play(); // Toca o som quando uma linha é limpa
+      lineClearSound.play(); 
     }
   }
 
@@ -177,8 +177,8 @@ class Game {
   gameOver() {
     clearInterval(this.intervalId);
     this.isGameOver = true;
-    gameOverSound.load(); // Carrega o som antes de tocar
-    gameOverSound.play(); // Toca o som de game over
+    gameOverSound.load(); 
+    gameOverSound.play(); 
     alert("Game Over! Final Score: " + this.score);
     restartBtn.style.display = 'inline-block';
     pauseBtn.style.display = 'none';
